@@ -9,7 +9,7 @@ interface ProjectCardProps {
   index: number;
 }
 
-const ProjectCard = ({ project, index }: ProjectCardProps) => {
+const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <motion.div
       className="group luxury-card overflow-hidden h-full"

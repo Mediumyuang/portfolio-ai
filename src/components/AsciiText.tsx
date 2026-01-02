@@ -464,7 +464,7 @@ class CanvAscii {
   }
 
   clear() {
-    this.scene.traverse(object => {
+    this.scene.traverse((object: THREE.Object3D) => {
       const obj = object as unknown as THREE.Mesh;
       if (!obj.isMesh) return;
       [obj.material].flat().forEach(material => {

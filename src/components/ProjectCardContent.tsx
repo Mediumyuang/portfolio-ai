@@ -1,4 +1,4 @@
-import { ExternalLink, Linkedin, MessageCircle, Calendar, ArrowRight } from 'lucide-react';
+import { Linkedin, MessageCircle, Calendar, ArrowRight } from 'lucide-react';
 import { Project } from '../types';
 import GlareIconButton from './GlareIconButton';
 import GlareLink from './GlareLink';
